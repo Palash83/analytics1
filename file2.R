@@ -1,4 +1,4 @@
-# Regression Analysis
+# Simple Linear Regression Analysis
 data(women)
 women
 names(women)
@@ -17,3 +17,5 @@ range(women$height)
 new1
 (p1=predict(fit1, newdata = new1))
 cbind(new1,p1)
+plot(fit1)
+
